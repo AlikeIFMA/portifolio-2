@@ -9,6 +9,7 @@ body{
     height: 74px;
     padding-right: 18px;
     border-radius: 3px;
+    
 }
 .menu ul, .menu li{
     margin: 0 auto;
@@ -31,14 +32,15 @@ body{
     color: #28FF3D;
     font-size: 16px;
     text-transform: capitalize;
+    transition-duration: 0.17s;
 }
 .menu a.seta:after{
     content: "\25BE";
     margin-left: 5px;
 }
 .menu li a:hover{
-    color: #28FF3D;
-    background: black;
+    color: #02b614;
+    
 }
 .menu input{
     display: none;
@@ -52,15 +54,15 @@ body{
 .menu label{
     display: none;
     line-height: 74px;
-    text-align: center;
+    text-align: right;
     position: absolute;
-    left: 35px;
+    right: 0px;
 }
 .menu label:before{
     font-size: 1.6em;
     color: #28FF3D;
     content: "\2261";
-    margin-left: 20px;
+    margin-right: 20px;
 }
 .menu ul.submenu{
     height: auto;
@@ -80,6 +82,7 @@ body{
     color: #28FF3D;
     font-size: 15px;
     text-transform: capitalize;
+    transition-duration: 0.4s;
 }
 .menu li:hover ul.submenu{
     display: block;
@@ -89,7 +92,7 @@ body{
     color: #28FF3D;
 }
 @media screen and (max-width: 800px) {
-    .menu {position: relative}
+    .menu {position: relative;}
     .menu ul {background: #272727;position: absolute;top: 100%;right: 0;left: 0;z-index: 3;height: auto;display: none;text-align: left;}
     .menu ul.submenu {width: 100%;position: static;}
     .menu ul.submenu a {padding-left: 30px;}
