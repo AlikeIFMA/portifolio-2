@@ -11,6 +11,19 @@ body{
     border-radius: 3px;
     
 }
+h2.liu1{
+    display: none;
+}
+ul li.liu{
+    left: 40px;
+    top: 15px;
+    position: absolute;
+}
+.liu{
+    font-size: 30px;
+    color: #28FF3D;
+    font-family: cursive;
+}
 .menu ul, .menu li{
     margin: 0 auto;
     padding: 0;
@@ -27,7 +40,8 @@ body{
 .menu a{
     display: block;
     line-height: 74px;
-    padding: 0 14px;
+    padding-left:14px;
+    padding-right:14px;
     text-decoration: none;
     color: #28FF3D;
     font-size: 16px;
@@ -39,7 +53,7 @@ body{
     margin-left: 5px;
 }
 .menu li a:hover{
-    color: #02b614;
+    color: #0AB052;
     
 }
 .menu input{
@@ -68,7 +82,7 @@ body{
     height: auto;
     overflow: hidden;
     width: 170px;
-    background: #272727;
+    background: black;
     position: absolute;
     z-index: 99;
     display: none;
@@ -88,11 +102,16 @@ body{
     display: block;
 }
 .menu ul.submenu a:hover{
-    background: black;
+    background: #272727;
     color: #28FF3D;
 }
 @media screen and (max-width: 800px) {
+    .menu h2.liu1 {left: 40px;top: -10px; position: absolute; display: block;}
+    .liu1 {font-size: 30px;color: #28FF3D;font-family: cursive; font-weight: lighter;}
+    .liu{visibility: hidden;}
     .menu {position: relative;}
+    .menu ul li a{background: black;}
+    .menu ul li a:hover{background: #272727; color: #28FF3D;}
     .menu ul {background: #272727;position: absolute;top: 100%;right: 0;left: 0;z-index: 3;height: auto;display: none;text-align: left;}
     .menu ul.submenu {width: 100%;position: static;}
     .menu ul.submenu a {padding-left: 30px;}
