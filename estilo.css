@@ -17,7 +17,7 @@ body{
 .menu{
     background: #000000;
     background: linear-gradient(to bottom, #0AB052, #000000);
-    height: 74px;
+    height: 140px;
     padding-right: 18px;
     border-radius: 3px;
     
@@ -27,11 +27,11 @@ h2.liu1{
 }
 ul li.liu{
     left: 40px;
-    top: 23px;
+    top: 33px;
     position: absolute;
 }
 .liu{
-    font-size: 20px;
+    font-size: 35px;
     color: #28FF3D;
     font-family: HORIZON;
 }
@@ -51,11 +51,12 @@ ul li.liu{
 .menu a{
     display: block;
     line-height: 74px;
+    padding-top: 20px;
     padding-left:14px;
     padding-right:14px;
     text-decoration: none;
     color: #28FF3D;
-    font-size: 13px;
+    font-size: 27px;
     font-family: HORIZON;
     text-transform: capitalize;
     transition-duration: 0.17s;
@@ -93,7 +94,7 @@ ul li.liu{
 .menu ul.submenu{
     height: auto;
     overflow: hidden;
-    width: 170px;
+    width: 270px;
     background: #272727;
     position: absolute;
     z-index: 99;
@@ -106,7 +107,7 @@ ul li.liu{
 }
 .menu ul.submenu a{
     color: #28FF3D;
-    font-size: 11px;
+    font-size: 19.76px;
     text-transform: capitalize;
     transition-duration: 0.4s;
 }
@@ -140,14 +141,14 @@ ul li.liu{
 
 .div0-1{
     width: 100%;
-    height: 70px;
+    height: 50px;
 }
 
 /* Div 1 */
 
 .div1{
     width: 100%;
-    height: 600px;
+    height: 900px;
     background-image: url(imagens/AlissonComemorando.png);
     background-size: 100% 100%;
     display: flex;
@@ -155,20 +156,23 @@ ul li.liu{
 .texto{
     display: flex;
     flex-flow: row wrap;
+    width: 60%;
+    
 }
 .imagem01{
-    padding-top: 100px;
+    padding-top: 120px;
     display: flex;
     flex-flow: row wrap;
+    width: 40%;
 }
 .h101{
     color: #00ff1a;
-    font-size: 45px;
+    font-size: 75px;
     font-family: HORIZON;
 }
 .h201{
     color: #0AB052;
-    font-size: 28px;
+    font-size: 35px;
     font-family: HORIZON;
 }
 .p1{
@@ -177,182 +181,164 @@ ul li.liu{
     visibility: hidden;
 }
 .imagem1{
-    width: 400px;
-    height: 400px;
-    margin-left: -150px;
+    width: 650px;
+    height: 650px;
 }
 .texto h1.h101{
-    margin-top: 250px;
+    margin-top: 330px;
 }
 body h1.h101{
-    margin-left: 10%;
+    margin-left: 30%;
+
 }
 .texto h2.h201{
-    margin-top: 250px;
+    margin-top: 330px;
 }
 
 /* Responsividade da Div1 */
 
-@media screen and (max-width: 1040px) {
-    body h1.h101{margin-left: 5%;}
-    body h2.h201{margin-left: 0%;}
-    .imagem1{width: 335px;height: 335px;}
+@media screen and (max-width: 2166px) {
+    body h1.h101{margin-left: 20%;}
+    .imagem1{width: 650px;height: 650px;}
 }
-@media screen and (max-width: 1000px) {
-    body h1.h101{margin-left: 3%;}
-    body h2.h201{margin-left: 0%;}
+@media screen and (max-width: 1895px) {
+    body h1.h101{margin-left: 20%;}
+    .div1{height: 600px}
+    .liu{font-size: 25px;}
+    .menu a{font-size: 19px;}
+    .menu ul.submenu{width: 210px;}
+    .menu ul.submenu a{font-size: 14px;}
+    .h101{font-size: 46px;}
+    .h201{font-size: 25px;}
+    .imagem1{width: 500px;height: 500px;}
 }
-@media screen and (max-width: 975px) {
-    body h1.h101{margin-left: 5%;}
-    body h2.h201{margin-left: 0%;}
+@media screen and (max-width: 1536px) {
+    body h1.h101{margin-left: 20%;}
+    .liu{font-size: 28px;}
+    .menu a{font-size: 20px;}
+    .menu ul.submenu{width: 209px;}
+    .menu ul.submenu a{font-size: 14px;}
     .h101{font-size: 40px;}
     .h201{font-size: 23px;}
+    .imagem01{padding-top: 110px;}
+    .imagem1{width: 500px;height: 500px;}
+    .texto h1.h101{margin-top: 300px;}
+    .texto h2.h201{margin-top: 295px;}
 }
-@media screen and (max-width: 856px) {
-    .div1{width: 100%;height: 550px;background-image: url(imagens/AlissonComemorando.png);background-size: 100% 100%;display: flex;}
-    .texto{display: flex;flex-flow: row wrap;width: 55%;}
-    .imagem01{padding-top: 100px;display: flex;flex-flow: row wrap;}
-    .h101{color: #00ff1a;font-size: 32px;}
-    .h201{color: #0AB052;font-size: 18px;}
-    .p1{color: #81ff8e;font-size: 25px;visibility: hidden;}
-    .imagem1{width: 315px;height: 315px; margin-left: 30px;}
-    .texto h1.h101{margin-top: 250px;}
-    body h1.h101{margin-left: 6%;}
-    .texto h2.h201{margin-top: 250px;}
-    body p.p1{margin-left: 0%;}
+@media screen and (max-width: 1280px) {
+    body h1.h101{margin-left: 14%;}
+    .div1{height: 650px;}
+    .liu{font-size: 28px;}
+    .menu a{font-size: 20px;}
+    .menu ul.submenu{width: 209px;}
+    .menu ul.submenu a{font-size: 14px;}
+    .h101{font-size: 35px;}
+    .h201{font-size: 20px;}
+    .imagem01{padding-top: 110px;}
+    .imagem1{width: 400px;height: 420px;}
+    .texto h1.h101{margin-top: 300px;}
+    .texto h2.h201{margin-top: 295px;}
+}
+@media screen and (max-width: 1040px) {
+    body h1.h101{margin-left: 12%;}
+    .div1{height: 500px;}
+    .liu{font-size: 20px;}
+    ul li.liu{top: 24px;}
+    .menu a{font-size: 15px; padding-top: 0px;}
+    .menu ul.submenu{width: 167px;}
+    .menu ul.submenu a{font-size: 11px;}
+    .h101{font-size: 35px;}
+    .h201{font-size: 20px;}
+    .imagem01{padding-top: 90px;}
+    .imagem1{width: 330px;height: 330px;}
+    .texto h1.h101{margin-top: 220px;}
+    .texto h2.h201{margin-top: 215px;}
+    .menu{height: 90px;}
+}
+@media screen and (max-width: 837px) {
+    body h1.h101{margin-left: 12%;}
+    .div1{height: 430px;}
+    .liu{font-size: 20px;}
+    .menu ul.submenu{width: 167px;}
+    .menu ul.submenu a{font-size: 11px;}
+    .h101{font-size: 25px;}
+    .h201{font-size: 17px;}
+    .imagem01{padding-top: 90px;}
+    .imagem1{width: 280px;height: 280px;}
+    .texto h1.h101{margin-top: 200px;}
+    .texto h2.h201{margin-top: 190px;}
+    .texto{width: 52%;}
 }
 @media screen and (max-width: 800px) {
-    .div1{width: 100%;height: 550px;background-image: url(imagens/AlissonComemorando.png);background-size: 100% 100%;display: flex;}
-    .texto{display: flex;flex-flow: row wrap;width: 55%;}
-    .imagem01{padding-top: 100px;display: flex;flex-flow: row wrap;}
-    .h101{color: #00ff1a;font-size: 32px;}
-    .h201{color: #0AB052;font-size: 18px;}
-    .p1{color: #81ff8e;font-size: 25px;visibility: hidden;}
-    .imagem1{width: 315px;height: 315px; margin-left: 30px;}
-    .texto h1.h101{margin-top: 250px;}
-    body h1.h101{margin-left: 5%;}
-    .texto h2.h201{margin-top: 250px;}
-    body p.p1{margin-left: 0%;}
-}
-@media screen and (max-width: 787px) {
-    .div1{width: 100%;height: 550px;background-image: url(imagens/AlissonComemorando.png);background-size: 100% 100%;display: flex;}
-    .texto{display: flex;flex-flow: row wrap;width: 55%;}
-    .imagem01{padding-top: 100px;display: flex;flex-flow: row wrap;}
-    .h101{color: #00ff1a;font-size: 28px;}
-    .h201{color: #0AB052;font-size: 17px;}
-    .p1{color: #81ff8e;font-size: 25px;visibility: hidden;}
-    .imagem1{width: 315px;height: 315px; margin-left: 30px;}
-    .texto h1.h101{margin-top: 250px;}
-    body h1.h101{margin-left: 3.1%;}
-    .texto h2.h201{margin-top: 250px;}
-    body p.p1{margin-left: 0%;}
-}
-@media screen and (max-width: 730px) {
-    .div1{width: 100%;height: 500px;background-image: url(imagens/AlissonComemorando.png);background-size: 100% 100%;display: flex;}
-    .texto{display: flex;flex-flow: row wrap;width: 55%;}
-    .imagem01{padding-top: 100px;display: flex;flex-flow: row wrap;}
-    .h101{color: #00ff1a;font-size: 26px;}
-    .h201{color: #0AB052;font-size: 15px;}
-    .p1{color: #81ff8e;font-size: 25px;visibility: hidden;}
-    .imagem1{width: 280px;height: 280px; margin-left: 0px;}
-    .texto h1.h101{margin-top: 220px;}
-    body h1.h101{margin-left: 4.5%;}
-    .texto h2.h201{margin-top: 220px;}
-    body p.p1{margin-left: 0%;}
-}
-@media screen and (max-width: 643px) {
-    .div1{width: 100%;height: 450px;background-image: url(imagens/AlissonComemorando.png);background-size: 100% 100%;display: flex;}
-    .texto{display: flex;flex-flow: row wrap;width: 55%;}
-    .imagem01{padding-top: 100px;display: flex;flex-flow: row wrap;}
-    .h101{color: #00ff1a;font-size: 24px;}
-    .h201{color: #0AB052;font-size: 13px;}
-    .p1{color: #81ff8e;font-size: 25px;visibility: hidden;}
-    .imagem1{width: 245px;height: 245px; margin-left: 0px;}
+    body h1.h101{margin-left: 14%;}
+    .div1{height: 430px;}
+    .liu1{font-size: 20px;}
+    .menu ul.submenu{width: 100%;}
+    .menu ul.submenu a{font-size: 11px;}
+    .h101{font-size: 25px;}
+    .h201{font-size: 17px;}
+    .imagem01{padding-top: 90px;}
+    .imagem1{width: 250px;height: 250px;}
     .texto h1.h101{margin-top: 200px;}
-    body h1.h101{margin-left: 2%;}
-    .texto h2.h201{margin-top: 200px;}
-    body p.p1{margin-left: 0%;}
+    .texto h2.h201{margin-top: 190px;}
+    .texto{width: 60%;}
 }
-@media screen and (max-width: 573px) {
-    .div1{width: 100%;height: 380px;background-image: url(imagens/AlissonComemorando.png);background-size: 100% 100%;display: flex;}
-    .texto{display: flex;flex-flow: row wrap;width: 55%;}
-    .imagem01{padding-top: 80px;display: flex;flex-flow: row wrap;}
-    .h101{color: #00ff1a;font-size: 20px;}
-    .h201{color: #0AB052;font-size: 10px;}
-    .p1{color: #81ff8e;font-size: 25px;visibility: hidden;}
-    .imagem1{width: 230px;height: 230px;}
-    .texto h1.h101{margin-top: 180px;}
+@media screen and (max-width: 636px) {
     body h1.h101{margin-left: 10%;}
-    .texto h2.h201{margin-top: 180px;}
-    body p.p1{margin-left: 0%;}
-}
-@media screen and (max-width: 503px) {
-    .div1{width: 100%;height: 350px;background-image: url(imagens/AlissonComemorando.png);background-size: 100% 100%;display: flex;}
-    .texto{display: flex;flex-flow: row wrap;width: 55%;}
-    .imagem01{padding-top: 70px;display: flex;flex-flow: row wrap;}
-    .h101{color: #00ff1a;font-size: 18px;}
-    .h201{color: #0AB052;font-size: 10px;}
-    .p1{color: #81ff8e;font-size: 25px;visibility: hidden;}
-    .imagem1{width: 200px;height: 200px;}
+    .div1{height: 300px;}
+    .menu h2.liu1{top: 8px;}
+    .div0-1{height: 30px;}
+    .menu ul.submenu{width: 100%;}
+    .menu ul.submenu a{font-size: 9px;}
+    .menu a{font-size: 10px;}
+    .h101{font-size: 21px;}
+    .h201{font-size: 14px;}
+    .imagem01{padding-top: 70px;}
+    .imagem1{width: 180px;height: 210px;}
     .texto h1.h101{margin-top: 160px;}
+    .texto h2.h201{margin-top: 155px;}
+    .texto{width: 60%;}
+}
+@media screen and (max-width: 508px) {
     body h1.h101{margin-left: 10%;}
-    .texto h2.h201{margin-top: 160px;}
-    body p.p1{margin-left: 0%;}
-}
-@media screen and (max-width: 456px) {
-    .div1{width: 100%;height: 320px;background-image: url(imagens/AlissonComemorando.png);background-size: 100% 100%;display: flex;}
-    .texto{display: flex;flex-flow: row wrap;width: 55%;}
-    .imagem01{padding-top: 70px;display: flex;flex-flow: row wrap;}
-    .h101{color: #00ff1a;font-size: 18px;}
-    .h201{color: #0AB052;font-size: 10px;}
-    .p1{color: #81ff8e;font-size: 25px;visibility: hidden;}
-    .imagem1{width: 200px;height: 200px;}
-    .texto h1.h101{margin-top: 160px;}
-    body h1.h101{margin-left: 6%;}
-    .texto h2.h201{margin-top: 160px;}
-    body p.p1{margin-left: 0%;}
-}
-@media screen and (max-width: 440px) {
-    .div1{width: 100%;height: 280px;background-image: url(imagens/AlissonComemorando.png);background-size: 100% 100%;display: flex;}
-    .texto{display: flex;flex-flow: row wrap;width: 55%;}
-    .imagem01{padding-top: 50px;display: flex;flex-flow: row wrap;}
-    .h101{color: #00ff1a;font-size: 15px;}
-    .h201{color: #0AB052;font-size: 8px;}
-    .p1{color: #81ff8e;font-size: 25px;visibility: hidden;}
-    .imagem1{width: 180px;height: 180px;}
-    .texto h1.h101{margin-top: 140px;}
-    body h1.h101{margin-left: 4%;}
-    .texto h2.h201{margin-top: 140px;}
-    body p.p1{margin-left: 0%;}
-
-}
-@media screen and (max-width: 374px) {
-    .div1{width: 100%;height: 300px;background-image: url(imagens/AlissonComemorando.png);background-size: 100% 100%;display: flex;}
-    .texto{display: flex;flex-flow: row wrap;width: 55%;}
-    .imagem01{padding-top: 50px;display: flex;flex-flow: row wrap;}
-    .h101{color: #00ff1a;font-size: 12px;}
-    .h201{color: #0AB052;font-size: 8px;}
-    .p1{color: #81ff8e;font-size: 25px;visibility: hidden;}
-    .imagem1{width: 170px;height: 170px;}
-    .texto h1.h101{margin-top: 130px;}
-    body h1.h101{margin-left: 4%;}
-    .texto h2.h201{margin-top: 130px;}
-    body p.p1{margin-left: 0%;}
-    .liu1{font-size: 20px;margin-top: 17px;margin-left: -10px;}
-}
-@media screen and (max-width: 333px) {
-    .div1{width: 100%;height: 260px;background-image: url(imagens/AlissonComemorando.png);background-size: 100% 100%;display: flex;}
-    .texto{display: flex;flex-flow: row wrap;width: 55%;}
-    .imagem01{padding-top: 50px;display: flex;flex-flow: row wrap;}
-    .h101{color: #00ff1a;font-size: 11px;}
-    .h201{color: #0AB052;font-size: 7px;}
-    .p1{color: #81ff8e;font-size: 25px;visibility: hidden;}
+    .div1{height: 260px;}
+    .liu1{font-size: 15px;}
+    .menu h2.liu1{top: 14px;}
+    .menu ul.submenu{width: 100%;}
+    .h101{font-size: 17px;}
+    .h201{font-size: 11px;}
+    .imagem01{padding-top: 60px;}
     .imagem1{width: 150px;height: 150px;}
-    .texto h1.h101{margin-top: 120px;}
-    body h1.h101{margin-left: 3%;}
-    .texto h2.h201{margin-top: 120px;}
-    body p.p1{margin-left: 0%;}
-    .liu1{font-size: 18px;margin-top: 18px;margin-left: -20px;}
+    .texto h1.h101{margin-top: 130px;}
+    .texto h2.h201{margin-top: 125px;}
+    .texto{width: 60%;}
+}
+@media screen and (max-width: 408px) {
+    body h1.h101{margin-left: 11%;}
+    .div1{height: 260px;}
+    .liu1{font-size: 12px;}
+    .menu ul.submenu{width: 100%;}
+    .h101{font-size: 14px;}
+    .h201{font-size: 8px;}
+    .imagem01{padding-top: 50px;}
+    .imagem1{width: 130px;height: 130px;}
+    .texto h1.h101{margin-top: 105px;}
+    .texto h2.h201{margin-top: 100px;}
+    .texto{width: 60%;}
+}
+@media screen and (max-width: 331px) {
+    body h1.h101{margin-left: 11%;}
+    .div0-1{height: 10px;}
+    .div1{height: 200px;}
+    .liu1{font-size: 12px;}
+    .menu ul.submenu{width: 100%;}
+    .h101{font-size: 10px;}
+    .h201{font-size: 7px;}
+    .imagem01{padding-top: 50px;}
+    .imagem1{width: 100px;height: 100px;}
+    .texto h1.h101{margin-top: 90px;}
+    .texto h2.h201{margin-top: 85px;}
+    .texto{width: 60%;}
 }
 
 /* Div separadora 1-2 */
