@@ -139,7 +139,7 @@ ul li.liu{
 
 /* Div separadora 0-1 */
 
-.div0-1{
+.div0a1{
     width: 100%;
     height: 50px;
 }
@@ -204,6 +204,7 @@ body h1.h101{
 @media screen and (max-width: 1895px) {
     body h1.h101{margin-left: 20%;}
     .div1{height: 600px}
+    .div1a2{height: 200px;}
     .liu{font-size: 25px;}
     .menu a{font-size: 19px;}
     .menu ul.submenu{width: 210px;}
@@ -212,7 +213,7 @@ body h1.h101{
     .h201{font-size: 25px;}
     .imagem1{width: 500px;height: 500px;}
 }
-@media screen and (max-width: 1536px) {
+@media screen and (max-width: 1540px) {
     body h1.h101{margin-left: 20%;}
     .liu{font-size: 28px;}
     .menu a{font-size: 20px;}
@@ -255,7 +256,7 @@ body h1.h101{
     .texto h2.h201{margin-top: 215px;}
     .menu{height: 90px;}
 }
-@media screen and (max-width: 837px) {
+@media screen and (max-width: 855px) {
     body h1.h101{margin-left: 12%;}
     .div1{height: 430px;}
     .liu{font-size: 20px;}
@@ -283,11 +284,12 @@ body h1.h101{
     .texto h2.h201{margin-top: 190px;}
     .texto{width: 60%;}
 }
-@media screen and (max-width: 636px) {
+@media screen and (max-width: 655px) {
     body h1.h101{margin-left: 10%;}
     .div1{height: 300px;}
     .menu h2.liu1{top: 8px;}
-    .div0-1{height: 30px;}
+    .div0a1{height: 30px;}
+    .div1a2{height: 30px;}
     .menu ul.submenu{width: 100%;}
     .menu ul.submenu a{font-size: 9px;}
     .menu a{font-size: 10px;}
@@ -299,7 +301,7 @@ body h1.h101{
     .texto h2.h201{margin-top: 155px;}
     .texto{width: 60%;}
 }
-@media screen and (max-width: 508px) {
+@media screen and (max-width: 530px) {
     body h1.h101{margin-left: 10%;}
     .div1{height: 260px;}
     .liu1{font-size: 15px;}
@@ -313,11 +315,14 @@ body h1.h101{
     .texto h2.h201{margin-top: 125px;}
     .texto{width: 60%;}
 }
-@media screen and (max-width: 408px) {
+@media screen and (max-width: 430px) {
     body h1.h101{margin-left: 11%;}
     .div1{height: 260px;}
     .liu1{font-size: 12px;}
+    .menu{height: 70px;}
+    .menu label::before{line-height: 0px;}
     .menu ul.submenu{width: 100%;}
+    .menu h2.liu1{left: 10px;}
     .h101{font-size: 14px;}
     .h201{font-size: 8px;}
     .imagem01{padding-top: 50px;}
@@ -326,11 +331,12 @@ body h1.h101{
     .texto h2.h201{margin-top: 100px;}
     .texto{width: 60%;}
 }
-@media screen and (max-width: 331px) {
+@media screen and (max-width: 350px) {
     body h1.h101{margin-left: 11%;}
-    .div0-1{height: 10px;}
+    .div0a1{height: 10px;}
+    .div1a2{height: 10px;}
     .div1{height: 200px;}
-    .liu1{font-size: 12px;}
+    .liu1{font-size: 9px;}
     .menu ul.submenu{width: 100%;}
     .h101{font-size: 10px;}
     .h201{font-size: 7px;}
@@ -339,6 +345,30 @@ body h1.h101{
     .texto h1.h101{margin-top: 90px;}
     .texto h2.h201{margin-top: 85px;}
     .texto{width: 60%;}
+}
+@media screen and (max-width: 270px) {
+    body h1.h101{margin-left: 9%;}
+    .div1{height: 200px;}
+    .menu ul.submenu{width: 100%;}
+    .h101{font-size: 9px;}
+    .h201{font-size: 6px;}
+    .imagem01{padding-top: 50px;}
+    .imagem1{width: 85px;height: 100px;}
+    .texto h1.h101{margin-top: 90px;}
+    .texto h2.h201{margin-top: 85px;}
+    .texto{width: 60%;}
+}
+@media screen and (max-width: 232px) {
+    body h1.h101{margin-left: 5%;}
+    .div1{height: 150px;}
+    .menu ul.submenu{width: 100%;}
+    .h101{font-size: 6px;}
+    .h201{font-size: 4px;}
+    .imagem01{padding-top: 20px;}
+    .imagem1{width: 75px;height: 75px;}
+    .texto h1.h101{margin-top: 60px;}
+    .texto h2.h201{margin-top: 57px;}
+    .texto{width: 50%;}
 }
 
 /* Div separadora 1-2 */
