@@ -175,11 +175,6 @@ ul li.liu{
     font-size: 35px;
     font-family: HORIZON;
 }
-.p1{
-    color: #81ff8e;
-    font-size: 25px;
-    visibility: hidden;
-}
 .imagem1{
     width: 650px;
     height: 650px;
@@ -194,19 +189,51 @@ body h1.h101{
 .texto h2.h201{
     margin-top: 330px;
 }
+/* Div separadora 1-2 */
+
+.div1a2{
+    width: 100%;
+    height: 150px;
+}
+
+/* Div 2 */
+
+.div2{
+    width: 100%;
+    height: 1000px;
+    background-image: url(imagens/AlissonChampions.png);
+    background-size: 100% 100%;
+    display: flex;
+}
+.imagem02{
+    width: 40%;
+    display: flex;
+    flex-flow: row wrap;
+}
+.texto1{
+    width: 60%;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.div2a3{
+    width: 100%;
+    height: 150px;
+}
+
 
 /* Responsividade da Div1 */
 
 @media screen and (max-width: 2166px) {
     body h1.h101{margin-left: 20%;}
+    .div2{height: 900px}
     .imagem1{width: 650px;height: 650px;}
 }
 @media screen and (max-width: 1895px) {
-    body h1.h101{margin-left: 20%;}
     .div1{height: 600px}
-    .div1a2{height: 200px;}
-    .liu{font-size: 25px;}
-    .menu a{font-size: 19px;}
+    .div2{height: 800px;}
+    .liu{font-size: 28px;}
+    .menu a{font-size: 21px;}
     .menu ul.submenu{width: 210px;}
     .menu ul.submenu a{font-size: 14px;}
     .h101{font-size: 46px;}
@@ -214,42 +241,32 @@ body h1.h101{
     .imagem1{width: 500px;height: 500px;}
 }
 @media screen and (max-width: 1540px) {
-    body h1.h101{margin-left: 20%;}
-    .liu{font-size: 28px;}
+    .liu{font-size: 26px;}
+    .div2{height: 700px;}
     .menu a{font-size: 20px;}
-    .menu ul.submenu{width: 209px;}
-    .menu ul.submenu a{font-size: 14px;}
     .h101{font-size: 40px;}
     .h201{font-size: 23px;}
-    .imagem01{padding-top: 110px;}
     .imagem1{width: 500px;height: 500px;}
-    .texto h1.h101{margin-top: 300px;}
-    .texto h2.h201{margin-top: 295px;}
 }
 @media screen and (max-width: 1280px) {
     body h1.h101{margin-left: 14%;}
+    .div2{height: 630px;}
     .div1{height: 650px;}
-    .liu{font-size: 28px;}
+    .liu{font-size: 25px;}
     .menu a{font-size: 20px;}
-    .menu ul.submenu{width: 209px;}
-    .menu ul.submenu a{font-size: 14px;}
     .h101{font-size: 35px;}
     .h201{font-size: 20px;}
-    .imagem01{padding-top: 110px;}
     .imagem1{width: 400px;height: 420px;}
-    .texto h1.h101{margin-top: 300px;}
-    .texto h2.h201{margin-top: 295px;}
 }
 @media screen and (max-width: 1040px) {
     body h1.h101{margin-left: 12%;}
     .div1{height: 500px;}
+    .div2{height: 600px;}
     .liu{font-size: 20px;}
     ul li.liu{top: 24px;}
     .menu a{font-size: 15px; padding-top: 0px;}
     .menu ul.submenu{width: 167px;}
     .menu ul.submenu a{font-size: 11px;}
-    .h101{font-size: 35px;}
-    .h201{font-size: 20px;}
     .imagem01{padding-top: 90px;}
     .imagem1{width: 330px;height: 330px;}
     .texto h1.h101{margin-top: 220px;}
@@ -257,14 +274,10 @@ body h1.h101{
     .menu{height: 90px;}
 }
 @media screen and (max-width: 855px) {
-    body h1.h101{margin-left: 12%;}
     .div1{height: 430px;}
-    .liu{font-size: 20px;}
-    .menu ul.submenu{width: 167px;}
-    .menu ul.submenu a{font-size: 11px;}
+    .div2{height: 550px;}
     .h101{font-size: 25px;}
     .h201{font-size: 17px;}
-    .imagem01{padding-top: 90px;}
     .imagem1{width: 280px;height: 280px;}
     .texto h1.h101{margin-top: 200px;}
     .texto h2.h201{margin-top: 190px;}
@@ -272,25 +285,19 @@ body h1.h101{
 }
 @media screen and (max-width: 800px) {
     body h1.h101{margin-left: 14%;}
-    .div1{height: 430px;}
+    .div2{height: 500px;}
     .liu1{font-size: 20px;}
     .menu ul.submenu{width: 100%;}
-    .menu ul.submenu a{font-size: 11px;}
-    .h101{font-size: 25px;}
-    .h201{font-size: 17px;}
-    .imagem01{padding-top: 90px;}
     .imagem1{width: 250px;height: 250px;}
-    .texto h1.h101{margin-top: 200px;}
-    .texto h2.h201{margin-top: 190px;}
     .texto{width: 60%;}
 }
 @media screen and (max-width: 655px) {
     body h1.h101{margin-left: 10%;}
     .div1{height: 300px;}
+    .div2{height: 400px;}
     .menu h2.liu1{top: 8px;}
     .div0a1{height: 30px;}
     .div1a2{height: 30px;}
-    .menu ul.submenu{width: 100%;}
     .menu ul.submenu a{font-size: 9px;}
     .menu a{font-size: 10px;}
     .h101{font-size: 21px;}
@@ -299,25 +306,22 @@ body h1.h101{
     .imagem1{width: 180px;height: 210px;}
     .texto h1.h101{margin-top: 160px;}
     .texto h2.h201{margin-top: 155px;}
-    .texto{width: 60%;}
 }
 @media screen and (max-width: 530px) {
-    body h1.h101{margin-left: 10%;}
     .div1{height: 260px;}
+    .div2{height: 310px;}
     .liu1{font-size: 15px;}
     .menu h2.liu1{top: 14px;}
-    .menu ul.submenu{width: 100%;}
     .h101{font-size: 17px;}
     .h201{font-size: 11px;}
     .imagem01{padding-top: 60px;}
     .imagem1{width: 150px;height: 150px;}
     .texto h1.h101{margin-top: 130px;}
     .texto h2.h201{margin-top: 125px;}
-    .texto{width: 60%;}
 }
 @media screen and (max-width: 430px) {
     body h1.h101{margin-left: 11%;}
-    .div1{height: 260px;}
+    .div2{height: 230px;}
     .liu1{font-size: 12px;}
     .menu{height: 70px;}
     .menu label::before{line-height: 0px;}
@@ -329,39 +333,29 @@ body h1.h101{
     .imagem1{width: 130px;height: 130px;}
     .texto h1.h101{margin-top: 105px;}
     .texto h2.h201{margin-top: 100px;}
-    .texto{width: 60%;}
 }
 @media screen and (max-width: 350px) {
-    body h1.h101{margin-left: 11%;}
     .div0a1{height: 10px;}
     .div1a2{height: 10px;}
     .div1{height: 200px;}
+    .div2{height: 200px;}
     .liu1{font-size: 9px;}
-    .menu ul.submenu{width: 100%;}
     .h101{font-size: 10px;}
     .h201{font-size: 7px;}
-    .imagem01{padding-top: 50px;}
     .imagem1{width: 100px;height: 100px;}
-    .texto h1.h101{margin-top: 90px;}
-    .texto h2.h201{margin-top: 85px;}
-    .texto{width: 60%;}
 }
 @media screen and (max-width: 270px) {
     body h1.h101{margin-left: 9%;}
-    .div1{height: 200px;}
-    .menu ul.submenu{width: 100%;}
+    .div2{height: 150px;}
     .h101{font-size: 9px;}
     .h201{font-size: 6px;}
-    .imagem01{padding-top: 50px;}
     .imagem1{width: 85px;height: 100px;}
-    .texto h1.h101{margin-top: 90px;}
-    .texto h2.h201{margin-top: 85px;}
-    .texto{width: 60%;}
 }
 @media screen and (max-width: 232px) {
     body h1.h101{margin-left: 5%;}
     .div1{height: 150px;}
-    .menu ul.submenu{width: 100%;}
+    .div2{height: 120px;}
+    .div1a2{height: 10px;}
     .h101{font-size: 6px;}
     .h201{font-size: 4px;}
     .imagem01{padding-top: 20px;}
@@ -369,21 +363,4 @@ body h1.h101{
     .texto h1.h101{margin-top: 60px;}
     .texto h2.h201{margin-top: 57px;}
     .texto{width: 50%;}
-}
-
-/* Div separadora 1-2 */
-
-.div1-2{
-    width: 100%;
-    height: 200px;
-}
-
-/* Div 2 */
-
-.div2{
-    width: 100%;
-    height: 600px;
-    background-image: url(imagens/AlissonComemorando.png);
-    background-size: 100% 100%;
-    display: flex;
 }
