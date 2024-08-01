@@ -10,7 +10,8 @@ body{
 @font-face {
     font-family: HORIZON;
     src: url(fontes/horizon.otf);
- }
+}
+
 
 /* Menu */
 
@@ -210,12 +211,44 @@ body h1.h101{
     display: flex;
     flex-flow: row wrap;
 }
+.imagem2{
+    height: 650px;
+    width: 520px;
+}
+.imagem02 img.imagem2{
+    padding-top: 180px;
+}
+body img.imagem2{
+    margin-left: 40%;
+}
 .texto1{
     width: 60%;
     display: flex;
     flex-flow: row wrap;
 }
-
+.h102{
+    color: #00ff1a;
+    font-size: 65px;
+    font-family: HORIZON;
+}
+.texto1 h1.h102{
+    padding-left: 28%;
+    padding-top: 100px;
+}
+.divtexto{
+    width: 83%;
+    height: 55%;
+}
+.texto1 div.divtexto{
+    padding-left: 150px;
+}
+.p1{
+    color: #00cc14;
+    font-size: 32.5px;
+    line-height: 1.5;
+    font-family: HORIZON;
+    text-align: center;
+}
 .div2a3{
     width: 100%;
     height: 150px;
@@ -225,137 +258,264 @@ body h1.h101{
 /* Responsividade da Div1 */
 
 @media screen and (max-width: 2166px) {
+    /* Responsividade Div 1 */
+
     body h1.h101{margin-left: 20%;}
-    .div2{height: 900px}
     .imagem1{width: 650px;height: 650px;}
+
+    /* Resposividade Div 2 */
+
+    .div2{height: 900px}
+    .h102{font-size: 58px;}
+    .p1{font-size: 31px;}
 }
 @media screen and (max-width: 1895px) {
-    .div1{height: 600px}
-    .div2{height: 800px;}
-    .liu{font-size: 28px;}
-    .menu a{font-size: 21px;}
+
+    /* Resposividade Menu */
+
+    .liu{font-size: 23px;}
+    .menu a{font-size: 18px;}
     .menu ul.submenu{width: 210px;}
     .menu ul.submenu a{font-size: 14px;}
-    .h101{font-size: 46px;}
+
+    /* Responsividade Div 1 */
+
+    .div1{height: 600px}
+    .texto{width: 50%;}
+    .h101{font-size: 40px;}
     .h201{font-size: 25px;}
     .imagem1{width: 500px;height: 500px;}
+
+    /* Responsividade Div 2 */
+    
+    .div2{height: 800px;}
+    .divtexto{width: 70%;}
+    .h102{font-size: 30px;}
+    .p1{font-size: 17px;}
+    body img.imagem2{margin-left: 30%;}
+    .imagem2{height: 500px;width: 370px;}
+    .texto1 div.divtexto{padding-left: 0px;}
+    .texto1 h1.h102{padding-left: 20%;}
 }
 @media screen and (max-width: 1540px) {
-    .liu{font-size: 26px;}
-    .div2{height: 700px;}
+    
+    /* Responsividade Menu */
+
+    .liu{font-size: 23px;}
     .menu a{font-size: 20px;}
     .h101{font-size: 40px;}
+    body h1.h101{margin-left: 15%;}
     .h201{font-size: 23px;}
-    .imagem1{width: 500px;height: 500px;}
+
+    /* Responsividade Div 1 */
+
+    .div2{height: 700px;}
+    .h102{font-size: 30px;}
+    .p1{font-size: 18px;}
+    body img.imagem2{margin-left: 20%;}
+    .imagem2{height: 430px;width: 320px;}
 }
 @media screen and (max-width: 1280px) {
-    body h1.h101{margin-left: 14%;}
-    .div2{height: 630px;}
-    .div1{height: 650px;}
-    .liu{font-size: 25px;}
+
+    /* Responsividade Menu */
+
     .menu a{font-size: 20px;}
+    .liu{font-size: 25px;}
+    
+    /* Responsividade Div 1 */
+
+    body h1.h101{margin-left: 14%;}
+    .div1{height: 650px;}
     .h101{font-size: 35px;}
     .h201{font-size: 20px;}
     .imagem1{width: 400px;height: 420px;}
+
+    /* Responsividade Div 2 */
+
+    .div2{height: 630px;}
+    body img.imagem2{margin-left: 13%;}
+    .texto1 h1.h102{padding-left: 13%;}
 }
 @media screen and (max-width: 1040px) {
-    body h1.h101{margin-left: 12%;}
-    .div1{height: 500px;}
-    .div2{height: 600px;}
+
+    /* Responsividade Menu */
+
     .liu{font-size: 20px;}
     ul li.liu{top: 24px;}
     .menu a{font-size: 15px; padding-top: 0px;}
     .menu ul.submenu{width: 167px;}
     .menu ul.submenu a{font-size: 11px;}
+    .menu{height: 90px;}
+    
+    /* Responsividade Div 1 */
+
+    body h1.h101{margin-left: 10%;}
+    .div1{height: 500px;}
+    .h101{font-size: 30px;}
+    .h201{font-size: 18px;}
     .imagem01{padding-top: 90px;}
     .imagem1{width: 330px;height: 330px;}
     .texto h1.h101{margin-top: 220px;}
     .texto h2.h201{margin-top: 215px;}
-    .menu{height: 90px;}
+    .texto{width: 53%;}
+
+    /* Responsividade Div 2 */
+
+    .div2{height: 600px;}
+    .imagem2{width: 280px;height: 400px;}
+    .texto1 div.divtexto{padding-left: 50px;}
+    .p1{font-size: 15px;}
+    .imagem02 img.imagem2{padding-top: 100px;}
 }
 @media screen and (max-width: 855px) {
+
+    /* Responsividade Div 1 */
+
     .div1{height: 430px;}
-    .div2{height: 550px;}
     .h101{font-size: 25px;}
     .h201{font-size: 17px;}
     .imagem1{width: 280px;height: 280px;}
     .texto h1.h101{margin-top: 200px;}
     .texto h2.h201{margin-top: 190px;}
-    .texto{width: 52%;}
+    .texto{width: 52%;}.imagem2{width: 230px;height: 300px;}
+
+    /* Responsividade Div 2 */
+
+    .div2{height: 550px;}
+    .texto1 div.divtexto{padding-left: 50px;}
+    .p1{font-size: 15px;}
+    .imagem02 img.imagem2{padding-top: 100px;}
 }
 @media screen and (max-width: 800px) {
-    body h1.h101{margin-left: 14%;}
-    .div2{height: 500px;}
+    
+    /* Responsividade Menu */
+
     .liu1{font-size: 20px;}
     .menu ul.submenu{width: 100%;}
+
+    /* Responsividade Div 1 */
+    
+    body h1.h101{margin-left: 14%;}    
     .imagem1{width: 250px;height: 250px;}
     .texto{width: 60%;}
+    
+    /* Responsividade Div 2 */
+
+    .div2{height: 500px;}
 }
 @media screen and (max-width: 655px) {
-    body h1.h101{margin-left: 10%;}
-    .div1{height: 300px;}
-    .div2{height: 400px;}
+
+    /* Responsividade Menu*/
+
     .menu h2.liu1{top: 8px;}
-    .div0a1{height: 30px;}
-    .div1a2{height: 30px;}
     .menu ul.submenu a{font-size: 9px;}
     .menu a{font-size: 10px;}
+
+    .div0a1{height: 30px;}
+
+    /* Responsividade Div 1*/
+
+    body h1.h101{margin-left: 10%;}
+    .div1{height: 300px;}
     .h101{font-size: 21px;}
     .h201{font-size: 14px;}
     .imagem01{padding-top: 70px;}
     .imagem1{width: 180px;height: 210px;}
     .texto h1.h101{margin-top: 160px;}
     .texto h2.h201{margin-top: 155px;}
+
+    .div1a2{height: 30px;}
+
+    /* Responsividade Div 2*/
+
+    .div2{height: 400px;}
 }
 @media screen and (max-width: 530px) {
-    .div1{height: 260px;}
-    .div2{height: 310px;}
+
+    /* Responsividade Menu */
+
     .liu1{font-size: 15px;}
     .menu h2.liu1{top: 14px;}
+
+    /* Responsividade Div 1 */
+    
+    body h1.h101{margin-left: 15%;}
+    .div1{height: 260px;}
     .h101{font-size: 17px;}
     .h201{font-size: 11px;}
     .imagem01{padding-top: 60px;}
     .imagem1{width: 150px;height: 150px;}
     .texto h1.h101{margin-top: 130px;}
     .texto h2.h201{margin-top: 125px;}
+
+    /* Responsividade Div 2 */
+
+    .div2{height: 310px;}
 }
 @media screen and (max-width: 430px) {
-    body h1.h101{margin-left: 11%;}
-    .div2{height: 230px;}
+
+    /* Responsividade Menu */
+    
     .liu1{font-size: 12px;}
     .menu{height: 70px;}
     .menu label::before{line-height: 0px;}
     .menu ul.submenu{width: 100%;}
     .menu h2.liu1{left: 10px;}
+    
+    /* Responsividade Div 1 */
+    
+    body h1.h101{margin-left: 11%;}
     .h101{font-size: 14px;}
     .h201{font-size: 8px;}
     .imagem01{padding-top: 50px;}
     .imagem1{width: 130px;height: 130px;}
     .texto h1.h101{margin-top: 105px;}
     .texto h2.h201{margin-top: 100px;}
+    
+    /* Responsividade Div 2 */
+
+    .div2{height: 230px;}
 }
 @media screen and (max-width: 350px) {
-    .div0a1{height: 10px;}
-    .div1a2{height: 10px;}
-    .div1{height: 200px;}
-    .div2{height: 200px;}
+
+    /* Responsividade Menu */
+    
     .liu1{font-size: 9px;}
+    
+    .div0a1{height: 10px;}
+    
+    /* Responsividade Div 1 */
+    
+    .div1{height: 200px;}
     .h101{font-size: 10px;}
     .h201{font-size: 7px;}
     .imagem1{width: 100px;height: 100px;}
+
+    .div1a2{height: 10px;}
+    
+    /* Responsividade Div 2 */
+    
+    .div2{height: 200px;}
 }
 @media screen and (max-width: 270px) {
-    body h1.h101{margin-left: 9%;}
-    .div2{height: 150px;}
+
+    /* Responsividade Div 1 */
+    
     .h101{font-size: 9px;}
     .h201{font-size: 6px;}
     .imagem1{width: 85px;height: 100px;}
+    body h1.h101{margin-left: 9%;}
+    
+    /* Responsividade Div 2 */
+
+    .div2{height: 150px;}
 }
 @media screen and (max-width: 232px) {
+    
+    /* Responsividade Div 1 */
+    
     body h1.h101{margin-left: 5%;}
     .div1{height: 150px;}
-    .div2{height: 120px;}
-    .div1a2{height: 10px;}
     .h101{font-size: 6px;}
     .h201{font-size: 4px;}
     .imagem01{padding-top: 20px;}
@@ -363,4 +523,8 @@ body h1.h101{
     .texto h1.h101{margin-top: 60px;}
     .texto h2.h201{margin-top: 57px;}
     .texto{width: 50%;}
+    
+    /* Responsividade Div 2 */
+
+    .div2{height: 120px;}
 }
