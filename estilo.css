@@ -190,9 +190,9 @@ body h1.h101{
 .texto h2.h201{
     margin-top: 330px;
 }
-/* Div separadora 1-2 */
+/* Div separadora */
 
-.div1a2{
+.divseparadora{
     width: 100%;
     height: 150px;
 }
@@ -232,7 +232,7 @@ body img.imagem2{
     font-family: HORIZON;
 }
 .texto1 h1.h102{
-    padding-left: 28%;
+    padding-left: 31%;
     padding-top: 100px;
 }
 .divtexto{
@@ -249,15 +249,76 @@ body img.imagem2{
     font-family: HORIZON;
     text-align: center;
 }
-.div2a3{
+
+/* Div 3 */
+
+.div3{
     width: 100%;
-    height: 150px;
+    height: 1500px;
+    background-image: url(imagens/DefesaAlisson3.png);
+    background-size: 100% 100%;
+    display: flex;
+}
+.texto3{
+    width: 70%;
+    display: flex;
+    flex-flow: row wrap;
+}
+.h103{
+    color: #00ff1a;
+    font-size: 65px;
+    font-family: HORIZON;
+    text-align: center;
+    height: 100px;
+}
+body h1.h103{
+    margin-left: 18%;
+}
+.texto3 h1.h103{
+    padding-top: 500px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.divtexto3{
+    width: 83%;
+    height: 500px;
+}
+.p3{
+    color: #ffffff;
+    font-size: 32.5px;
+    line-height: 1.6;
+    font-family: HORIZON;
+    text-align: center;
+}
+body div.divtexto3{
+    margin-left: 9%;
+}
+.imagem03{
+    padding-top: 100px;
+    display: flex;
+    flex-flow: row wrap;
+    width: 30%;
+}
+.imagem3{
+    height: 650px;
+    width: 580px;
+}
+.div3 img.imagem3{
+    padding-top: 500px;
 }
 
 
-/* Responsividade da Div1 */
+/* Responsividade Início */
+
+@media screen and (max-width: 2572px){
+
+    /* Responsividade Div 3 */
+
+    body h1.h103{margin-left: 14%;}
+}
 
 @media screen and (max-width: 2166px) {
+
     /* Responsividade Div 1 */
 
     body h1.h101{margin-left: 20%;}
@@ -268,6 +329,14 @@ body img.imagem2{
     .div2{height: 900px}
     .h102{font-size: 58px;}
     .p1{font-size: 31px;}
+    body img.imagem2{margin-left: 20%;}
+
+    /* Responsividade Div 3 */
+
+    body h1.h103{margin-left: 13%;}
+    .h103{font-size: 58px;}
+    .p3{font-size: 31px;}
+    .imagem3{width: 500px;height: 650px;}
 }
 @media screen and (max-width: 1895px) {
 
@@ -296,6 +365,16 @@ body img.imagem2{
     .imagem2{height: 500px;width: 370px;}
     .texto1 div.divtexto{padding-left: 0px;}
     .texto1 h1.h102{padding-left: 20%;}
+
+    /* Responsividade Div 3 */
+
+    .div3{height: 1000px;}
+    body h1.h103{margin-left: 25%;}
+    .h103{font-size: 30px;}
+    .p3{font-size: 17px;}
+    .imagem3{width: 370px;height: 500px;}
+    .texto3 h1.h103{padding-top: 300px;}
+    .div3 img.imagem3{padding-top: 200px;}
 }
 @media screen and (max-width: 1540px) {
     
@@ -314,6 +393,16 @@ body img.imagem2{
     .p1{font-size: 18px;}
     body img.imagem2{margin-left: 20%;}
     .imagem2{height: 430px;width: 320px;}
+    
+    /* Responsividade Div 3 */
+
+    .div3{height: 900px;}
+    body h1.h103{margin-left: 20%;}
+    .h103{font-size: 30px;}
+    .p3{font-size: 18px;}
+    .imagem3{width: 320px;height: 450px;}
+    .div3 img.imagem3{padding-top: 150px;}
+
 }
 @media screen and (max-width: 1280px) {
 
@@ -334,7 +423,16 @@ body img.imagem2{
 
     .div2{height: 630px;}
     body img.imagem2{margin-left: 13%;}
-    .texto1 h1.h102{padding-left: 13%;}
+    .texto1 h1.h102{padding-left: 17%;}
+    .imagem2{height: 400px; width: 300px;}
+
+    /* Responsividade Div 3 */
+
+    .div3{height: 800px;}
+    body h1.h103{margin-left: 16%;}
+    .h103{font-size: 30px;}
+    .p3{font-size: 18px;}
+    .imagem3{width: 280px;height: 400px;}
 }
 @media screen and (max-width: 1040px) {
 
@@ -362,10 +460,26 @@ body img.imagem2{
     /* Responsividade Div 2 */
 
     .div2{height: 600px;}
-    .imagem2{width: 280px;height: 400px;}
-    .texto1 div.divtexto{padding-left: 50px;}
+    .imagem2{width: 260px;height: 360px;}
     .p1{font-size: 15px;}
-    .imagem02 img.imagem2{padding-top: 100px;}
+    .imagem02 img.imagem2{padding-top: 140px;}
+    .h102{font-size: 23px;}
+    .p1{font-size: 14px;}
+    .texto1 h1.h102{margin-left: 7.3%;}
+    .texto1 div.divtexto{margin-left: 6%;}
+
+    /* Responsividade Div 3 */
+
+    .div3{height: 650px;}
+    .texto3{width: 70%;}
+    body h1.h103{margin-left: 12%;}
+    .h103{font-size: 23px;}
+    .p3{font-size: 15px;}
+    .imagem3{width: 240px;height: 360px;}
+    .div3 img.imagem3{padding-top: 60px;}
+    body div.divtexto3{margin-left: 5%;}
+    .texto3 h1.h103{padding-top: 170px;}
+    
 }
 @media screen and (max-width: 855px) {
 
@@ -383,8 +497,10 @@ body img.imagem2{
 
     .div2{height: 550px;}
     .texto1 div.divtexto{padding-left: 50px;}
-    .p1{font-size: 15px;}
-    .imagem02 img.imagem2{padding-top: 100px;}
+    .p1{font-size: 12px;}
+    .texto1 h1.h102{margin-left: 14%;}
+    .imagem02 img.imagem2{padding-top: 140px;}
+    body img.imagem2{margin-left: 20%;}
 }
 @media screen and (max-width: 800px) {
     
@@ -411,7 +527,7 @@ body img.imagem2{
     .menu ul.submenu a{font-size: 9px;}
     .menu a{font-size: 10px;}
 
-    .div0a1{height: 30px;}
+    .divseparadora{height: 30px;}
 
     /* Responsividade Div 1*/
 
@@ -424,11 +540,14 @@ body img.imagem2{
     .texto h1.h101{margin-top: 160px;}
     .texto h2.h201{margin-top: 155px;}
 
-    .div1a2{height: 30px;}
-
     /* Responsividade Div 2*/
 
     .div2{height: 400px;}
+    .imagem2{height: 200px;width: 160px;}
+    .h102{font-size: 15px;}
+    .p1{font-size: 9px;}
+    .texto1 h1.h102{margin-left: 21%;}
+    .imagem02 img.imagem2{padding-top: 100px;}
 }
 @media screen and (max-width: 530px) {
 
@@ -439,7 +558,7 @@ body img.imagem2{
 
     /* Responsividade Div 1 */
     
-    body h1.h101{margin-left: 15%;}
+    body h1.h101{margin-left: 11%;}
     .div1{height: 260px;}
     .h101{font-size: 17px;}
     .h201{font-size: 11px;}
@@ -451,6 +570,13 @@ body img.imagem2{
     /* Responsividade Div 2 */
 
     .div2{height: 310px;}
+    .imagem2{height: 160px;width: 120px;}
+    .h102{font-size: 12px;}
+    .p1{font-size: 7.1px;}
+    .texto1 h1.h102{margin-left: 18%;}
+    .imagem02 img.imagem2{padding-top: 90px;}
+    body img.imagem2{margin-left: 20%;}
+    .texto1 div.divtexto{margin-left: 0%;}
 }
 @media screen and (max-width: 430px) {
 
@@ -475,6 +601,13 @@ body img.imagem2{
     /* Responsividade Div 2 */
 
     .div2{height: 230px;}
+    .imagem2{height: 130px;width: 100px;}
+    .h102{font-size: 10px;}
+    .p1{font-size: 6.1px;}
+    .texto1 h1.h102{margin-left: 10%;padding-top: 50px;}
+    .imagem02 img.imagem2{padding-top: 70px;}
+    body img.imagem2{margin-left: 20%;}
+    .texto1 div.divtexto{padding-left: 0px; margin-left: 7%;}
 }
 @media screen and (max-width: 350px) {
 
@@ -482,7 +615,7 @@ body img.imagem2{
     
     .liu1{font-size: 9px;}
     
-    .div0a1{height: 10px;}
+    .divseparadora{height: 10px;}
     
     /* Responsividade Div 1 */
     
@@ -490,12 +623,17 @@ body img.imagem2{
     .h101{font-size: 10px;}
     .h201{font-size: 7px;}
     .imagem1{width: 100px;height: 100px;}
-
-    .div1a2{height: 10px;}
     
     /* Responsividade Div 2 */
     
     .div2{height: 200px;}
+    .imagem2{height: 100px;width: 80px;}
+    .h102{font-size: 8px;}
+    .p1{font-size: 4.9px;}
+    .texto1 h1.h102{margin-left: 10%;padding-top: 50px;}
+    .imagem02 img.imagem2{padding-top: 60px;}
+    body img.imagem2{margin-left: 20%;}
+    .texto1 div.divtexto{padding-left: 0px; margin-left: 7%;}
 }
 @media screen and (max-width: 270px) {
 
@@ -503,12 +641,19 @@ body img.imagem2{
     
     .h101{font-size: 9px;}
     .h201{font-size: 6px;}
-    .imagem1{width: 85px;height: 100px;}
+    .imagem1{width: 85px;height: 90px;}
     body h1.h101{margin-left: 9%;}
     
     /* Responsividade Div 2 */
 
     .div2{height: 150px;}
+    .imagem2{height: 70px;width: 60px;}
+    .h102{font-size: 6px;}
+    .p1{font-size: 3.5px;}
+    .texto1 h1.h102{margin-left: 10%;padding-top: 30px;}
+    .imagem02 img.imagem2{padding-top: 40px;}
+    body img.imagem2{margin-left: 20%;}
+    .texto1 div.divtexto{padding-left: 0px; margin-left: 7%;}
 }
 @media screen and (max-width: 232px) {
     
@@ -527,4 +672,11 @@ body img.imagem2{
     /* Responsividade Div 2 */
 
     .div2{height: 120px;}
+    .imagem2{height: 60px;width: 50px;}
+    .h102{font-size: 5px;}
+    .p1{font-size: 3px;}
+    .texto1 h1.h102{margin-left: 10.75%;padding-top: 30px;}
+    .imagem02 img.imagem2{padding-top: 30px;}
+    body img.imagem2{margin-left: 20%;}
+    .texto1 div.divtexto{padding-left: 0px; margin-left: 7%;}
 }
