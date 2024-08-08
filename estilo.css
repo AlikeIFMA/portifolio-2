@@ -1262,6 +1262,9 @@ body div.divtexto3{
     height: 170%;
     width: 130%;
 }
+
+/* Responsividade Meus Gostos */
+
 @media screen and (max-width: 2166px){
     .video1, .video2, .video3{height: 120%;width: 120%;}
     .h207{font-size: 22px;}
@@ -1271,6 +1274,7 @@ body div.divtexto3{
     .video1, .video2, .video3{height: 100%;width: 120%;}
     .h207{font-size: 20px;}
     .h107{font-size: 35px;}
+    .imagem07{height: 600px;}
 }
 @media screen and (max-width: 1540px){
     .video1, .video2, .video3{height: 110%;width: 120%;}
@@ -1315,4 +1319,186 @@ body div.divtexto3{
     .video1, .video2, .video3{height: 40%;width: 120%;}
     .h207{font-size: 3.2px;height: 15px;}
     .h107{font-size: 5px;}
+}
+
+/* Responsividade Fale Comigo */
+
+.div9{
+    height: 1200px;
+    width: 100%;
+    display: block;
+}
+.form{
+    height: 1200px;
+    width: 50%;
+    display: block;
+    border-style: solid;
+    border-width: 10px;
+    border-radius: 30px;
+    border-color: #00ff1a;
+}
+.div9 div.form{
+    margin-left: 25%;
+}
+.h109{
+    display: block  ;
+    color: #00ff1a;
+    font-size: 30px;
+    font-family: HORIZON;
+    height: 50px;
+    width: 100%;
+    margin-top: 100px;
+    margin-left: 10%;
+}
+.h209{
+    display: inline;
+    color: #00ff1a;
+    font-size: 20px;
+    font-family: HORIZON;
+    height: 50px;
+    width: 100%;
+}
+.caixa9{
+    background-color: #000000;
+    color: #00ff1a;
+    font-size: 20px;
+    font-family: HORIZON;
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 10px;
+    border-color: #00ff1a;
+    height: 70px;
+    width: 80%;
+    margin-left: 10%;
+}
+.caixa901{
+    background-color: #000000;
+    color: #00ff1a;
+    font-size: 20px;
+    font-family: HORIZON;
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 10px;
+    border-color: #00ff1a;
+    height: 150px;
+    width: 80%;
+    margin-left: 10%;
+}
+.in{
+    margin-left: 12%;
+}
+.botao{
+    background-color: #000000;
+    color: #00ff1a;
+    font-size: 20px;
+    font-family: HORIZON;
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 10px;
+    border-color: #00ff1a;
+    height: 50px;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 30px;
+}
+.botao:hover{
+    cursor: pointer;
+}
+@media screen and (max-width: 2166px){
+    .h109{font-size: 25px;}
+    .h209{font-size: 18px;margin-top: 30px;}
+    .caixa9, .caixa901, .botao{font-size: 18px;}
+}
+@media screen and (max-width: 1895px){
+    .h109{font-size: 23px;}
+    .h209{font-size: 16px;margin-top: 30px;}
+    .form{border-width: 4px;}
+    .caixa9, .caixa901, .botao{font-size: 16px;}
+}
+@media screen and (max-width: 1540px){
+    .h109{font-size: 21px;}
+    .h209{font-size: 15px;margin-top: 30px;}
+    .caixa9, .botao{font-size: 15px;height: 50px;}
+    .form{width: 60%;}
+    .div9 div.form{margin-left: 20%;}
+}
+@media screen and (max-width: 1280px){
+    .h109{font-size: 19px;}
+    .h209{font-size: 14px;margin-top: 30px;}
+    .caixa9, .botao{font-size: 14px;height: 50px;}
+    .form{width: 60%;}
+    .div9 div.form{margin-left: 20%;}
+}
+@media screen and (max-width: 1060px){
+    .h109{font-size: 15px;}
+    .h209{font-size: 11px;margin-top: 30px;}
+    .caixa9, .botao{font-size: 11px;height: 50px;}
+    .form{width: 60%;}
+    .div9 div.form{margin-left: 20%;}
+    .divseparadora{height: 300px;}
+}
+@media screen and (max-width: 855px){
+    .h109{font-size: 12px;}
+    .h209{font-size: 8px;margin-top: 30px;}
+    .caixa9, .caixa901, .botao{font-size: 11px;}
+    .form{width: 60%;}
+    .div9 div.form{margin-left: 20%;}
+    .divseparadora{height: 300px;}
+}
+@media screen and (max-width: 800px){
+    .h109{font-size: 12px;}
+    .h209{font-size: 8px;margin-top: 30px;}
+    .caixa9, .caixa901, .botao{font-size: 11px;}
+    .form{width: 80%;}
+    .div9 div.form{margin-left: 10%;}
+    .divseparadora{height: 300px;}
+}
+
+@media screen and (max-width: 655px){
+    .h109{font-size: 12px;}
+    .h209{font-size: 10px;margin-top: 30px;}
+    .caixa9, .caixa901, .botao{font-size: 10px;}
+    .form{width: 80%;}
+    .div9 div.form{margin-left: 10%;}
+    .divseparadora{height: 300px;}
+}
+@media screen and (max-width: 530px){
+    .h109{font-size: 11px;}
+    .h209{font-size: 9px;margin-top: 30px;}
+    .caixa9, .caixa901, .botao{font-size: 9px;}
+    .form{width: 80%;}
+    .div9 div.form{margin-left: 10%;}
+    .divseparadora{height: 300px;}
+}
+@media screen and (max-width: 430px){
+    .h109{font-size: 10px;}
+    .h209{font-size: 8px;margin-top: 10px;}
+    .caixa9, .caixa901, .botao{font-size: 8px; margin-left: 8%;}
+    .form{width: 80%;}
+    .div9 div.form{margin-left: 8%;}
+    .divseparadora{height: 300px;}
+}
+@media screen and (max-width: 350px){
+    .h109{font-size: 9px;}
+    .h209{font-size: 7px;margin-top: 30px;}
+    .caixa9, .caixa901, .botao{font-size: 7px;}
+    .form{width: 80%;}
+    .div9 div.form{margin-left: 10%;}
+    .divseparadora{height: 300px;}
+}
+@media screen and (max-width: 270px){
+    .h109{font-size: 7px;}
+    .h209{font-size: 6px;margin-top: 30px;}
+    .caixa9, .caixa901, .botao{font-size: 6px; margin-left: 7%;}
+    .form{width: 80%;}
+    .div9 div.form{margin-left: 10%;}
+    .divseparadora{height: 300px;}
+}
+@media screen and (max-width: 230px){
+    .h109{font-size: 6px;}
+    .h209{font-size: 5px;margin-top: 30px;}
+    .caixa9, .caixa901, .botao{font-size: 5px; margin-left: 6%;}
+    .form{width: 80%;}
+    .div9 div.form{margin-left: 10%;}
+    .divseparadora{height: 300px;}
 }
