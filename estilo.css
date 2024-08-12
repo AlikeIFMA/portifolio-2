@@ -138,13 +138,6 @@ ul li.liu{
     
 }
 
-/* Div separadora 0-1 */
-
-.div0a1{
-    width: 100%;
-    height: 50px;
-}
-
 /* Div 1 */
 
 .div1{
@@ -498,6 +491,7 @@ body div.divtexto3{
     .h101{font-size: 40px;}
     .h201{font-size: 25px;}
     .imagem1{width: 500px;height: 500px;}
+    .divseparadora{height: 100px;}
 
     /* Responsividade Div 2 */
     
@@ -780,6 +774,7 @@ body div.divtexto3{
 
     .liu1{font-size: 20px;}
     .menu ul.submenu{width: 100%;}
+    .divseparadora{height: 35px;}
 
     /* Responsividade Div 1 */
     
@@ -833,6 +828,7 @@ body div.divtexto3{
     .p1{font-size: 9px;}
     .texto1 h1.h102{margin-left: 21%;}
     .imagem02 img.imagem2{padding-top: 100px;}
+    .divseparadora{height: 28px;}
 
     /* Responsividade Div 3 */
 
@@ -886,6 +882,7 @@ body div.divtexto3{
     .imagem1{width: 150px;height: 150px;}
     .texto h1.h101{margin-top: 130px;}
     .texto h2.h201{margin-top: 125px;}
+    .divseparadora{height: 23px;}
 
     /* Responsividade Div 2 */
 
@@ -943,6 +940,7 @@ body div.divtexto3{
     .menu label::before{line-height: 0px;}
     .menu ul.submenu{width: 100%;}
     .menu h2.liu1{left: 10px;}
+    .divseparadora{height: 17px;}
     
     /* Responsividade Div 1 */
     
@@ -1015,6 +1013,7 @@ body div.divtexto3{
     .h101{font-size: 10px;}
     .h201{font-size: 7px;}
     .imagem1{width: 100px;height: 100px;}
+    .divseparadora{height: 14px;}
     
     /* Responsividade Div 2 */
     
@@ -1060,6 +1059,7 @@ body div.divtexto3{
     .h201{font-size: 6px;}
     .imagem1{width: 85px;height: 90px;}
     body h1.h101{margin-left: 9%;}
+    .divseparadora{height: 10px;}
     
     /* Responsividade Div 2 */
 
@@ -1179,7 +1179,6 @@ body div.divtexto3{
 }
 @media screen and (max-width: 1450px){
     .imagem06{height: 700px;}
-    .imagem06 img.imagem601, img.imagem602, img.imagem603, img.imagem604, img.imagem605, img.imagem606, img.imagem607, img.imagem608, img.imagem609{margin-top: 300px;}
 }
 @media screen and (max-width: 1255px){
     .imagem06{height: 600px;}
@@ -1221,7 +1220,6 @@ body div.divtexto3{
     .imagem06{height: 140px;}
     .imagem601{margin-left: 2%;}
     .imagem06 img.imagem601, img.imagem602, img.imagem603, img.imagem604, img.imagem605, img.imagem606, img.imagem607, img.imagem608, img.imagem609{margin-top: 40px;}
-    .imagem601, .imagem602, .imagem603, .imagem604,.imagem605, .imagem606, .imagem607, .imagem608, .imagem609{width: 9%;}
 }
 
 /* Meus Gostos */
@@ -1284,7 +1282,6 @@ body div.divtexto3{
 }
 @media screen and (max-width: 1280px){
     .video1, .video2, .video3{height: 90%;width: 120%;}
-    .h207{font-size: 15px;}
     .h107{font-size: 25px;}
     .video701, .video702, .video703{padding-left: 10%;}
 }
@@ -1313,7 +1310,6 @@ body div.divtexto3{
 @media screen and (max-width: 253px){
     .video1, .video2, .video3{height: 50%;width: 120%;}
     .h207{font-size: 3.5px;height: 17px;}
-    .h107{font-size: 9px;}
 }
 @media screen and (max-width: 196px){
     .video1, .video2, .video3{height: 40%;width: 120%;}
@@ -1404,6 +1400,10 @@ body div.divtexto3{
 .botao:hover{
     cursor: pointer;
 }
+.divseparadora1{
+    height: 300px;
+}
+
 @media screen and (max-width: 2166px){
     .h109{font-size: 25px;}
     .h209{font-size: 18px;margin-top: 30px;}
@@ -1426,79 +1426,49 @@ body div.divtexto3{
     .h109{font-size: 19px;}
     .h209{font-size: 14px;margin-top: 30px;}
     .caixa9, .botao{font-size: 14px;height: 50px;}
-    .form{width: 60%;}
-    .div9 div.form{margin-left: 20%;}
 }
 @media screen and (max-width: 1060px){
     .h109{font-size: 15px;}
     .h209{font-size: 11px;margin-top: 30px;}
     .caixa9, .botao{font-size: 11px;height: 50px;}
-    .form{width: 60%;}
-    .div9 div.form{margin-left: 20%;}
-    .divseparadora{height: 300px;}
 }
 @media screen and (max-width: 855px){
     .h109{font-size: 12px;}
     .h209{font-size: 8px;margin-top: 30px;}
     .caixa9, .caixa901, .botao{font-size: 11px;}
-    .form{width: 60%;}
-    .div9 div.form{margin-left: 20%;}
-    .divseparadora{height: 300px;}
 }
 @media screen and (max-width: 800px){
-    .h109{font-size: 12px;}
-    .h209{font-size: 8px;margin-top: 30px;}
-    .caixa9, .caixa901, .botao{font-size: 11px;}
     .form{width: 80%;}
     .div9 div.form{margin-left: 10%;}
-    .divseparadora{height: 300px;}
 }
 
 @media screen and (max-width: 655px){
-    .h109{font-size: 12px;}
     .h209{font-size: 10px;margin-top: 30px;}
     .caixa9, .caixa901, .botao{font-size: 10px;}
-    .form{width: 80%;}
-    .div9 div.form{margin-left: 10%;}
-    .divseparadora{height: 300px;}
 }
 @media screen and (max-width: 530px){
     .h109{font-size: 11px;}
     .h209{font-size: 9px;margin-top: 30px;}
     .caixa9, .caixa901, .botao{font-size: 9px;}
-    .form{width: 80%;}
-    .div9 div.form{margin-left: 10%;}
-    .divseparadora{height: 300px;}
 }
 @media screen and (max-width: 430px){
     .h109{font-size: 10px;}
     .h209{font-size: 8px;margin-top: 10px;}
     .caixa9, .caixa901, .botao{font-size: 8px; margin-left: 8%;}
-    .form{width: 80%;}
     .div9 div.form{margin-left: 8%;}
-    .divseparadora{height: 300px;}
 }
 @media screen and (max-width: 350px){
     .h109{font-size: 9px;}
     .h209{font-size: 7px;margin-top: 30px;}
     .caixa9, .caixa901, .botao{font-size: 7px;}
-    .form{width: 80%;}
-    .div9 div.form{margin-left: 10%;}
-    .divseparadora{height: 300px;}
 }
 @media screen and (max-width: 270px){
     .h109{font-size: 7px;}
     .h209{font-size: 6px;margin-top: 30px;}
     .caixa9, .caixa901, .botao{font-size: 6px; margin-left: 7%;}
-    .form{width: 80%;}
-    .div9 div.form{margin-left: 10%;}
-    .divseparadora{height: 300px;}
 }
 @media screen and (max-width: 230px){
     .h109{font-size: 6px;}
     .h209{font-size: 5px;margin-top: 30px;}
     .caixa9, .caixa901, .botao{font-size: 5px; margin-left: 6%;}
-    .form{width: 80%;}
-    .div9 div.form{margin-left: 10%;}
-    .divseparadora{height: 300px;}
 }
